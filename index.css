@@ -1,73 +1,73 @@
 /*ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron*/
 
-.display-4{
-    color: blueviolet;
+.display-4{                               /*qui vado a selezionare "Titolo lungo del post di apertura"*/
+    color: blueviolet;              
 }
 
 /*ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar*/
 
-.nav{
+.nav{                                        /*qui vado a selezionare tutta la barra elementi*/
     background-color: rgb(204, 85, 168);
 }
 
 /*ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron*/
 
 .font-weight-bold{
-    color: brown;
+    color: brown;                                /*qui vado a selezionare il continu a leggere solo del jumbotron*/
 }
 
 /*ESERCIZIO 4) Crea un selettore per selezionare il primo blog post*/
 
 .blog-post:first-of-type{
-    background-color: coral;
+    background-color: coral;                      /* seleziono solo il primo esempio di blog*/
 }
 
 /*ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso*/
 
-.blog-post hr:first-of-type{
+.blog-post hr:first-of-type{                     /*seleziono la linea orizzontale del primo blog*/
     color:red;
 }
 
 /*ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar*/
 
-.nav span:nth-of-type(even){
+.nav span:nth-of-type(even){                       /* seleziono tutti link pare della barra elementi con even,inserendo nav con all interno span*/
     color: chartreuse;
 }
 
 /*ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li>della prima "ordered-list" della sidebar ("Archivio")*/
 
                 
-.p-4:nth-child(2){
+.p-4:nth-child(2){                      /*seleziono la prima lista dell archivio alla dx della pagina il 2 identifica la seconda lista*/
     background-color: pink;
     
 }
 
 /*ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post*/
 
-.blog-post:nth-child(3) .blog-post-meta a{
+.blog-post:nth-child(3) .blog-post-meta a{                  /*seleziono solo il 3° <a> figlio del blogpost*/
     background-color: rgb(39, 245, 32);         
 }
 
 /*ESERCIZIO 9) Crea un selettore per selezionare il secondo <li>della lista del terzo blog post*/
 
-.blog-post:nth-child(4) li:nth-child(2){
+.blog-post:nth-child(4) li:nth-child(2){              /* seleziono la lista num.2 che si trova all interno del 3°blog indentificato sull esercizio con il num 4 partendo da zero*/
     background-color: rgb(9, 253, 253);
 }
 
 /*ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra*/
 
-.float-right{
+.float-right{                                             /* seleziono torna in basso a dx*/
     background-color: rgba(122, 157, 233, 0.961);
 }
 
 /*ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso*/
 
-.blog-pagination a:hover{
+.blog-pagination a:hover{                          /* inserisco over per cambiare colore al tocco del bottone*/
     background-color:rgb(255, 51, 0);
 }
 
 /*ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer*/
 
-.blog-footer a:nth-child(2){
+.blog-footer a:nth-child(2){               /* seleziono il figlio 2 del blogfooter ovvero @mdo */
     background-color:deeppink
 }
